@@ -1,0 +1,22 @@
+.headerSecondary{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #485563;
+    position: relative;
+    top: 0;
+    z-index: 50;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFF;
+}
+
+.headerSecondary > span{
+    margin-bottom: 2px;
+}
+
+@media (min-width:769px) {
+    .headerSecondary{
+        display: none;
+    }
+}

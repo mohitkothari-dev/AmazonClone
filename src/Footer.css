@@ -1,0 +1,15 @@
+.footer {
+    position: relative;/*absolute, relative, fixed, static, sticky*/
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #232F3E;
+    text-align: center;
+    color: white;
+    z-index: 100;
+  }
+
+.footer__name{
+    color: #FF9900;
+}

@@ -1,0 +1,132 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #232f3e;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header__logo{
+    display: flex;
+    flex: auto;
+    width: 30px;
+    object-fit: contain;
+    margin: 1px 20px 0 20px;
+}
+
+.header__address{
+    display: flex;
+}
+
+.roomicon{
+    color: white;
+    margin-top: 8px;
+}
+
+.header__address__option{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.header__address__optionLine1{
+    font-size: 12px;
+    font-weight: 400;
+    height: 14px;
+    line-height: 14px;
+}
+
+.header__address__optionLine2{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.header__search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 12.5px;
+    overflow: hidden;
+}
+
+.header__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+}
+
+.header__optionLine1{
+    font-size: 12px;
+    font-weight: 400;
+    height: 14px;
+    line-height: 14px;
+}
+
+.header__optionLine2{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    color: white;
+}
+
+.header__cart{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__cartCount{
+    margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+    .header__logo {
+        width: 20px;
+        margin: 12.5px 10px 0 10px;
+    }
+    .header__option{
+        margin: 0 5px;
+    }
+    .header__cartCount{
+        margin-right: 7.5px;
+    }
+    /*Extra features*/
+    .header__nav{
+        position: absolute;
+        top: 8px;
+        right: 0;
+    }
+    .header{
+        display: flow-root;
+        height: auto;
+        padding-bottom: 6px;
+        zoom: .81;
+    }
+    .header__address{
+        display: none;
+    }
+    .header__search{
+        margin: 3% 2% 0 2%;
+    }
+  }
